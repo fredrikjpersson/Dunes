@@ -90,24 +90,24 @@
     
   <!--navbar end-  -->
     <div class="row" style="background-image: url(pic/single-road.png); background-repeat: round;">
-   
+    
       <div class="col-lg-6 col-md-12 col-sm-12 columnItem">
-        <div id="trailer" class=" bg-transparent" style="height: 20vh"></div>
-        <div id="trailer" class="container" style="background-color:black;height: 40vh; box-shadow: 3vh 1vh 17vh black; width: 87%; border: 15px blured black; border-radius: 15px;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/4cf6DTOnzSQ?controls=1&autoplay=1&mute=1"
+      <div id="trailer" class=" bg-transparent" style="height: 20vh;"></div>
+        <div id="trailer" class="container boxShad" style="background-color:black;height: 40vh; width: 87%; border: 15px blured black; border-radius: 15px;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/4cf6DTOnzSQ?controls=1&autoplay=1&mute=1"
           allow="accelerometer;" frameborder="0" allowfullscreen></iframe>
         </div>
       
-        <div id="#" class="container bg-dark my-5" style=" box-shadow: 3vh 1vh 17vx black; width: 87%; border: 15px blured black; border-radius: 15px;">
+        <div id="#" class="container boxShad bg-dark my-5" style="width: 87%; border: 15px  black; border-radius: 15px;">
          <div style="color: white;"><?php require 'journey.html' ?></div>
           </div>
-          <div class="container bg-dark my-5" style=" box-shadow: 3vh 1vh 17v black; width: 87%; border: 15px blured black; border-radius: 15px;">
-          <div id="news1" class="container bg-dark my-5" style=" box-shadow: 3vh 1vh 17vx black; width: 87%; border: 15px blured black; border-radius: 15px;">
+          <div class="container boxShad bg-dark boxShad p-2 my-5" style="width: 87%; border: 15px  black; border-radius: 15px;">
+          <div id="news1" class="container boxShad bg-dark my-5 "  style="width: 87%; border: 15px black; border-radius: 15px;">
             <?php require 'new1.html' ?>
           </div>
-          <div id="news1" class="container bg-dark my-5" style=" box-shadow: 3vh 1vh 17vx black; width: 87%; border: 15px blured black; border-radius: 15px;">
+          <div id="news1" class="container boxShad bg-dark my-5" style="width: 87%; border: 15px blured black; border-radius: 15px;">
             <?php require 'new2.html' ?>
           </div>
-          <div id="news1" class="container bg-dark my-5" style=" box-shadow: 3vh 1vh 17vx black; width: 87%; border: 15px blured black; border-radius: 15px;">
+          <div id="news1" class="container boxShad bg-dark my-5" style="width: 87%; border: 15px blured black; border-radius: 15px;">
             <?php require 'new3.html' ?>
           </div>
           </div>
@@ -116,17 +116,18 @@
      
       <!-- right lane-->
        <div class="col-lg-6 col-md-12 col-sm-12 columnItem">
-        <div id="#" class="container bg-dark my-5" style=" box-shadow: 1vh 3vh 17vh black; width: 87%; border: 15px blured black; border-radius: 15px;">
-         <div style="color: white;"><?php require 'about.html' ?></div>
+        <div id="#" class="container boxShad bg-dark my-5" style="width: 87%; border: 15px blured black; border-radius: 15px;">
+         <div style="color: white;"><?php require 'raincoat.html' ?></div>
+         <div class="container boxShad bg-dark m-auto" style="width: 87%; border: 15px  black; border-radius: 15px;"><?php require 'about.html' ?></div>
           </div>
-          <div class="container bg-dark my-2" style=" box-shadow: 1vh 3vh 17vh black; width: 87%; border-radius: 15px;">
-          <div class="container" style="width: 100%;">
+          <div class="container boxShad bg-dark my-2" style="width: 87%; border-radius: 15px;">
+          <div class="container boxShad" style="width: 100%; border-radius: 25px !important;">
             <?php require 'twitterFeed.html' ?>
           </div>
-          <div class="container my-5" style="width: 100%;">
-            <?php require 'new2.html' ?>
+          <div class="container boxShad my-5" style=" height: 40vh; background-image: url(Resources/Screen01.jpg); background-repeat: round;">
+            
           </div>
-          <div class="container  my-5" style="width: 100%;">
+          <div class="container boxShan my-5" style="width: 100%; border: 15px blured black; border-radius: 15px;">
             <?php require 'new3.html' ?>
           </div>
           </div>
