@@ -1,0 +1,230 @@
+/* Landing Page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(68, 53, 53) !important;
+    font-family: 'badgrunge' !important;
+    /* max-width: 1700px; */
+    scroll-behavior: smooth;
+}
+@font-face {
+  font-family: badgrunge;
+  src: url('badgrunge.ttf'); 
+  src: local("badgrunge"), url('badgrunge.ttf');
+  }
+
+.navve {
+  width: 110%;
+}
+.row {
+  margin: 0 !important;
+}
+.floarter {
+  z-index: 50000;
+}
+
+.columnItem {
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.navbar{
+  box-shadow: 0 0 8px 8px rgb(0, 0, 0) inset;
+  /* box-shadow: 3vh 1vh 17vh black; */
+    /* height: 20vh !important; */
+    max-width: 100%;
+    
+    font-size: 4vh !important;
+    /* justify-content: center; */
+    /* align-content: center !important; */
+    background-image: url(pic/bannerCar.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover !important;
+    /* background-size: auto !important; */
+    background-color: black !important;
+}
+.dunesBrand {
+  font-size: 10vh !important;
+}
+
+.logoBack {
+  /*animation-delay: 2s;*/
+  background-image: url(dodLogo.png)!important ;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80vh;
+
+  animation: pulse 3s infinite;
+  margin: 0 auto;
+  display: table;
+  margin-top: 50px;
+  animation-direction: alternate;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+.roadBG{
+    text-align: center;
+    width: 100%;
+
+    /* max-width: 1700px; */
+}
+
+.combats {
+  background-image: url(Resources/Combat.gif);
+  background-size: cover;
+}
+.team1{
+  height: auto;
+}
+.testar {
+  margin-top: 200px;
+  height: 40vh;
+  opacity: 0.4;
+  ;
+}
+.testar:hover{
+  opacity: 1;
+}
+.about{
+  height: auto !important;
+  background-image: url(Resources/mockup.jpg); 
+  background-size: cover; 
+}
+.aboutText{
+  overflow: hidden;
+}
+#news1 {
+  overflow:hidden;
+  transition:height 0.4s ease-out;
+  height: 6vh !important;
+  width: 80%;
+  margin: auto;
+  max-height:600px; 
+  /* font-family: 'badgrunge'; */
+  background-color: navajowhite !;
+}
+
+#news1:active {
+  height: auto !important;
+}
+
+.twitters {
+  height: 100vh !important;
+  overflow:hidden;
+  width: 100%;
+  transition:height 0.3s ease-out;
+  max-height:600px; 
+  background-color: navajowhite !;
+  overflow: scroll;
+}
+/* .twitters:hover {
+  height: 120vh;
+} */
+
+.bg-dunes{
+    background-color: #524b48 ;
+    
+}
+.bg-dunes1{
+  background-color: #d37d43 !important;
+  
+}
+.bg-dunes2{
+  background-color: #8d8d8c !important;
+  
+}
+/* DevArt */
+#arrow-wrapper {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.arrow-border {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 2px solid orange;
+  border-radius: 50%;
+}
+.arrow {
+  position: absolute;
+  bottom: 24px;
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid orange;
+  border-right: 3px solid orange;
+  right: 19px;
+}
+
+.down {
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}  
+  
+.pulse {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    margin: 0;
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0.0;
+    box-shadow: 0 0 1px 2px #89849b;
+    animation-delay: 2s;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(0.9, 0.9);
+    opacity: 0.0;
+  }
+  50% {
+    opacity: 1.0;
+  }
+  100% {
+    transform: scale(1.3, 1.3);
+    opacity: 0;
+  }
+}
+/* About */
+
+/* Team */
+#myTeam1{
+    margin-top: 20vh;
+}
+
+/* Twitter */
+
+/* News */
+
+/* Fotter */
+.footer {
+  width: 100% !important;
+  background-image: url(Resources/Car\ Variations.png) !important;
+  background-position: center;
+  background-size: cover;
+  padding-top: 2vh;
+  padding-right: 3vh;
+}
+/* .fot{
+  
+} */
