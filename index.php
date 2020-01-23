@@ -46,13 +46,13 @@
 
 
   <!--MainRoadStart-->
-  <a href="#theBar">
+  <a href="#">
   <div id="logoBack" class="container logoBack col-md-12 col-sm-12" style="height: 100vh !important;">
   </div>
 </a>
   <div class="container bob" style="border-top-left-radius: 25px; border-top-right-radius: 25px;">
   <!-- navbar start -->
-    <nav id="theBar" class="navbar bob navbar-expand-lg navve sticky-top navbar-dark bg-dark" style=" background-color: dimgrey;">
+    <nav id="#" class="navbar headFootShadow bob navbar-expand-lg navve sticky-top navbar-dark bg-dark" style=" background-color: dimgrey;">
     
       <button class="navbar-toggler p-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -69,7 +69,7 @@
           <li class="nav-item">
             <a class="nav-link" data-toggle="modal" data-target="#myTeam1">Team</a>
         </li>
-          <li class="nav-item dropdown">
+        <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dropdown
             </a>
@@ -77,7 +77,7 @@
               <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item download"href="DunesPictures.rar">Presskit Download</a>
             </div>
           </li>
           <li class="nav-item">
@@ -97,7 +97,7 @@
           allow="accelerometer;" frameborder="0" allowfullscreen></iframe>
         </div>
       
-        <div id="#" class="container boxShad bg-dark my-5" style="width: 87%; border: 15px  black; border-radius: 15px;">
+        <div id="#" class="container boxShad rndc bg-dark my-5" style="width: 87%; border: 15px  black; border-radius: 1em;">
          <div style="color: white;"><?php require 'journey.html' ?></div>
           </div>
           <div class="container boxShad bg-dark boxShad p-2 my-5" style="width: 87%; border: 15px  black; border-radius: 15px;">
@@ -118,21 +118,21 @@
        <div class="col-lg-6 col-md-12 col-sm-12 columnItem">
         <div id="#" class="container boxShad bg-dark my-5" style="width: 87%; border: 15px blured black; border-radius: 15px;">
          <div style="color: white;"><?php require 'raincoat.html' ?></div>
-         <div class="container boxShad bg-dark m-auto" style="width: 87%; border: 15px  black; border-radius: 15px;"><?php require 'about.html' ?></div>
+         <div class="container boxShad rndc bg-dark m-auto" style="width: 100%; border: 15px  black; border-radius: 15px;"><?php require 'about.html' ?></div>
           </div>
           <div class="container boxShad bg-dark my-2" style="width: 87%; border-radius: 15px;">
           <div class="container boxShad" style="width: 100%; border-radius: 25px !important;">
             <?php require 'twitterFeed.html' ?>
           </div>
-          <div class="container boxShad my-5" style=" height: 40vh; background-image: url(Resources/Screen01.jpg); background-repeat: round;">
+          <div class="container rndc boxShad my-5" style=" height: 40vh; background-image: url(Resources/Screen01.jpg); background-repeat: round;">
             
           </div>
-          <div class="container boxShan my-5" style="width: 100%; border: 15px blured black; border-radius: 15px;">
-            <?php require 'new3.html' ?>
+          <div class="container rndc boxShan my-5" style="width: 100%; border: 15px blured black;">
+          <div id="" class="combats columnItem" style="border: black sollid 3px; height: 30vh; border-radius: 10px !important;"></div>
           </div>
           </div>
       </div>
-<!--
+<!-- 
       <div class="col-lg-6 col-md-12 col-sm-12 columnItem">
         <div id=" " class="about bg-tr" style="border: black sollid 3px; height: 30vh; border-radius: 10px;">
           <div class="  aboutText m-auto" style="height: auto; width: 95%;"><h2 style="color: rgb(255, 255, 255);"><h1 style="color:cornsilk;">About The Game!</h1><br\></h2><h2 style="text-align: left;  color: rgb(255, 255, 255);">A single player post apocalyptic road trip adventure with party and resource management.
@@ -148,8 +148,8 @@
         </div>
         <div class="bg-transparent" style="width: auto; height: 50vh;" ></div>
 
-      </div>
--->
+      </div> -->
+
         </div>
       </div>
       <div class="outRoad outRoad-right  ">
@@ -158,7 +158,7 @@
   </div>
 
   <div class="modal fade" id="videoModal">
-
+  <div><?php require 'new1.html' ?></div>
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title"></h4>
@@ -171,65 +171,60 @@
   </div>
     <!-- Team Cards-->
 
-    <div id="myTeam1" class="modal fade" role="dialog">
-      <div class="modal-dialog " style="display: float; max-width: 90%;">
-
-          <div class="row padding" >
-              <div class="col-md-8 m-auto" style= "width: 40vw; min-width: 350px; border-radius: 10px;">
-                <div  class="  bg-black" style="border: black sollid 3px; border-radius: 10px;">
-                  <div class="col-md-10 m-auto" style="width: 40vw; min-width: 350px; border-radius: 10px;">
-                    <div class="card p-2 floater text-light bg-transparent">
-                      <div id="slides" class="carousel   backFader  shadow-lg" data-interval="5000" data-ride="carousel" style="width: 40vw;">
-                        <ul class="carousel-indicators fixed fixed-bottom">
-                            <li data-target="#slides" data-slide-to="0" class="active"></li>
-                            <li data-target="#slides" data-slide-to="1"></li>
-                            <li data-target="#slides" data-slide-to="2"></li>
-                            <li data-target="#slides" data-slide-to="3"></li>
-                            <li data-target="#slides" data-slide-to="4"></li>
-                            <li data-target="#slides" data-slide-to="5"></li>
-                        </ul>
-                        <div class="carousel-inner columnItem" style=" border-radius: 25px;">
-                            <div class="carousel-item active">
-                              <img class="card-img-top d-block img-fluid" src="mugshots/henrikmug.png" alt="Second slide" class = 'img-responsive'>
-                            </div>
-                            <div class="carousel-item">
-                              <img class="card-img-top d-block img-fluid" src="mugshots/matiasmug.png" alt="Second slide" class = 'img-responsive'>
-                            </div>
-                            <div class="carousel-item">
-                              <img class="card-img-top d-block img-fluid" src="mugshots/tobiasmug.png" alt="Second slide" class = 'img-responsive'>
-                            </div>
-                            <div class="carousel-item">
-                              <img class="card-img-top d-block img-fluid" src="mugshots/niklasmug.png" alt="Second slide" class = 'img-responsive'>
-                            </div>
-                            <div class="carousel-item">
-                              <img class="card-img-top d-block img-fluid" src="mugshots/arvidmug.png" alt="Second slide" class = 'img-responsive'>
-                            </div>
-                            <div class="carousel-item">
-                              <img class="card-img-top d-block img-fluid" src="mugshots/oscarmug.png" alt="Second slide" class = 'img-responsive'>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <!--  -->
+  
 <!-- Fotter  -->
-<div class="footer container" style="width: 100vh; height: 30vh; color: cornsilk;">
-  <div class="  ml-auto fot" style="height: 25vh; width: 30%; border-radius: 25px;">
-    <h4 style="color: crimson;">Just testing how this might look</h4>
-    <ul>
-      <li style="color: crimson;" ><a href="#teams" style="color: crimson;">Team</a></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </div>
+<footer class="page-footer headFootShadow footer pt-2 bg-dark car-background">
 
+<!-- Footer Links -->
+<div class="container text-center">
+
+    <!-- Grid row -->
+    <div class="row">
+      <div class="col-sm-4  mb-md-0 mb-3 p-3">
+
+        <h5 class="text-uppercase footer-text-style">Links</h5>
+
+        <ul class="list-unstyled ">
+            <li>
+              <a href="https://www.youtube.com/channel/UCGyybXeVNfWgMVVv7I__9jg" target="_blank"><i class="fab fa-youtube-square footer-text-style" "></i></a>
+            </li>
+
+
+
+        </ul>
+      </div>
+        <div class="col-sm-4">
+            <h5 class="text-uppercase footer-text-style">Content</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href class="footer-text-style-2">About</a>
+              </li>
+              <li>
+                <a href class="footer-text-style-2">Portfolio</a>
+              </li>
+              <li>
+                <a href="mailto:mrlindfors@gmail.com?" class="footer-text-style-2">Contact</a>
+              </li>
+
+              </li>
+            </ul>
+        </div>
+
+        <div class="col-sm-4  mb-md-0 mb-3 p-3">
+            <h5 class="text-uppercase footer-text-style">Links</h5>
+
+            <ul class="list-unstyled">
+                <li>
+                  <a href="https://twitter.com/RaincoatDev" target="_blank"><i class="fab fa-twitter-square footer-text-style" "></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
+</footer>
+ ´´´
+  <footer class="page-footer footer pt-2 bg-dark car-background">
+
 
 </body>
 
