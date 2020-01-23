@@ -53,7 +53,7 @@
 </a>
   <div class="container bob" style="border-top-left-radius: 25px; border-top-right-radius: 25px;">
   <!-- navbar start -->
-    <nav id="#" class="navbar headFootShadow bob navbar-expand-lg navve sticky-top navbar-dark bg-dark" style=" background-color: dimgrey;">
+    <nav id="#" class="navbar headFootShadow duneColor bob navbar-expand-lg navve sticky-top navbar-dark bg-dark" style=" background-color: dimgrey;">
     
       <button class="navbar-toggler p-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -62,16 +62,16 @@
       <div class="collapse navbar-collapse pb-3" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#logoBack">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link duneColor" href="#logoBack">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#trailer" >Trailer</a>
+            <a class="nav-link duneColor" href="#trailer" >Trailer</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="modal" data-target="#myTeam1">Team</a>
+            <a class="nav-link duneColor" data-toggle="modal" data-target="#myTeam1">Team</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle duneColor" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dropdown
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -80,9 +80,6 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item download"href="DunesPictures.rar">Presskit Download</a>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
           </li>
         </ul>
         <a class="navbar-brand dunesBrand" href="#">Dunes Of Demise!!</a>
@@ -129,7 +126,7 @@
             
           </div>
           <div class="container rndc boxShan my-5" style="width: 100%; border: 15px blured black;">
-          <div id="" class="combats columnItem" style="border: black sollid 3px; height: 30vh; border-radius: 10px !important;"></div>
+          <div id="" class="combats boxShad columnItem" style="border: black sollid 3px; height: 30vh; border-radius: 10px !important;"></div>
           </div>
           </div>
       </div>
@@ -152,29 +149,8 @@
       </div> -->
 
         </div>
-      </div>
-      <div class="outRoad outRoad-right  ">
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="videoModal">
-  <div><?php require 'new1.html' ?></div>
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title"></h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-      <div class="modal-body">
-        
-      </div>
-    </div>
-  </div>
-    <!-- Team Cards-->
-
-  
-<!-- Fotter  -->
-<footer class="page-footer headFootShadow footer pt-2 bg-dark car-background">
+        <!-- Fotter  -->
+<footer class="page-footer  headFootShadow footer pt-2 bg-dark car-background">
 
 <!-- Footer Links -->
 <div class="container text-center">
@@ -223,6 +199,28 @@
     </div>
 </div>
 </footer>
+
+      </div>
+      <div class="outRoad outRoad-right  ">
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="videoModal">
+  <div><?php require 'new1.html' ?></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title"></h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+    </div>
+  </div>
+    <!-- Team Cards-->
+
+  
 
 </body>
 

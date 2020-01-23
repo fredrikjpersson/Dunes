@@ -160,7 +160,10 @@ body{
 }
 
 /* General Styling */
-
+.duneColor {
+  color: rgb(133,24,28) !important;
+  
+}
 
 .rndc {
   border-radius: 2em;
