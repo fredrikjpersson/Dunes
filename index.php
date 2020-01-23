@@ -46,7 +46,6 @@
 
 
   <!--MainRoadStart-->
-  <a href="#theBar">
   <div id="logoBack" class="container logoBack col-md-12 col-sm-12" style="height: 100vh !important;">
   </div>
 </a>
@@ -64,7 +63,7 @@
             <a class="nav-link" href="#logoBack">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#trailer" >Trailer</a>
+            <a class="nav-link text-red-darken-4" href="#trailer">Trailer</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="modal" data-target="#myTeam1">Team</a>
@@ -86,8 +85,14 @@
         </ul>
         <a class="navbar-brand dunesBrand" href="#">Dunes Of Demise!!</a>
       </div>
-    </nav>
-    
+      </nav>
+
+      <!---WordPress Hamburger--->
+
+      <?php
+      
+      ?>
+      
   <!--navbar end-  -->
     <div class="row" style="background-image: url(pic/single-road.png); background-repeat: round;">
    
@@ -98,7 +103,8 @@
         </div>
       
         <div id="#" class="container bg-dark my-5" style=" box-shadow: 3vh 1vh 17vx black; width: 87%; border: 15px blured black; border-radius: 15px;">
-         <div style="color: white;"><?php require 'journey.html' ?></div>
+         <div style="color: white;">
+         <?php require 'journey.html' ?></div>
           </div>
           <div class="container bg-dark my-5" style=" box-shadow: 3vh 1vh 17v black; width: 87%; border: 15px blured black; border-radius: 15px;">
           <div id="news1" class="container bg-dark my-5" style=" box-shadow: 3vh 1vh 17vx black; width: 87%; border: 15px blured black; border-radius: 15px;">
