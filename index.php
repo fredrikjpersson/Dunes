@@ -21,6 +21,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+  <script src="https://kit.fontawesome.com/034536f173.js" crossorigin="anonymous"></script>
 
 <script>
   var prevScrollpos = window.pageYOffset;
@@ -216,14 +217,55 @@
       </div>
   </div>
   <!--  -->
-  <footer class="page-footer footer font-small blue pt-2 bg-dark">
+  <footer class="page-footer footer pt-2 bg-dark car-background">
 
 <!-- Footer Links -->
 <div class="container text-center">
 
     <!-- Grid row -->
     <div class="row">
-      <div class="col-md-4  mb-md-0 mb-3 d-none d-lg-block p-3">
+      <div class="col-sm-4  mb-md-0 mb-3 p-3">
+
+        <h5 class="text-uppercase footer-text-style">Links</h5>
+
+        <ul class="list-unstyled ">
+            <li>
+              <a href="https://www.youtube.com/channel/UCGyybXeVNfWgMVVv7I__9jg" target="_blank"><i class="fab fa-youtube-square footer-text-style" "></i></a>
+            </li>
+
+
+
+        </ul>
+      </div>
+        <div class="col-sm-4">
+            <h5 class="text-uppercase footer-text-style">Content</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href class="footer-text-style-2">About</a>
+              </li>
+              <li>
+                <a href class="footer-text-style-2">Portfolio</a>
+              </li>
+              <li>
+                <a href="mailto:mrlindfors@gmail.com?" class="footer-text-style-2">Contact</a>
+              </li>
+              
+              </li>
+            </ul>
+        </div>   
+        
+        <div class="col-sm-4  mb-md-0 mb-3 p-3">
+            <h5 class="text-uppercase footer-text-style">Links</h5>
+
+            <ul class="list-unstyled">
+                <li>
+                  <a href="https://twitter.com/RaincoatDev" target="_blank"><i class="fab fa-twitter-square footer-text-style" "></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</footer>
 
         <h5 class="text-uppercase text-light">Links</h5>
 
