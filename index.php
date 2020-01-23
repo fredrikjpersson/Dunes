@@ -150,7 +150,7 @@
 
         </div>
         <!-- Fotter  -->
-<footer class="page-footer  headFootShadow footer pt-2 bg-dark car-background">
+<footer class="page-footer headFootShadow footer pt-2 bg-dark car-background">
 
 <!-- Footer Links -->
 <div class="container text-center">
@@ -159,11 +159,11 @@
     <div class="row">
       <div class="col-sm-4  mb-md-0 mb-3 p-3">
 
-        <h5 class="text-uppercase footer-text-style">Links</h5>
+        <h5 class="text-uppercase duneColor footer-text-style">Links</h5>
 
         <ul class="list-unstyled ">
             <li>
-              <a href="https://www.youtube.com/channel/UCGyybXeVNfWgMVVv7I__9jg" target="_blank"><i class="fab fa-youtube-square footer-text-style" "></i></a>
+              <a href="https://www.youtube.com/channel/UCGyybXeVNfWgMVVv7I__9jg" target="_blank"><i class="fab fa-youtube-square duneColor footer-text-style" "></i></a>
             </li>
 
 
@@ -171,16 +171,16 @@
         </ul>
       </div>
         <div class="col-sm-4">
-            <h5 class="text-uppercase footer-text-style">Content</h5>
+            <h5 class="text-uppercase duneColor footer-text-style">Content</h5>
             <ul class="list-unstyled">
               <li>
-                <a href class="footer-text-style-2">About</a>
+                <a href class="footer-text-style-2 duneColor">About</a>
               </li>
               <li>
-                <a href class="footer-text-style-2">Portfolio</a>
+                <a href class="footer-text-style-2 duneColor">Portfolio</a>
               </li>
               <li>
-                <a href="mailto:mrlindfors@gmail.com?" class="footer-text-style-2">Contact</a>
+                <a href="mailto:mrlindfors@gmail.com? duneColor" class="footer-text-style-2 duneColor">Contact</a>
               </li>
 
               </li>
@@ -188,11 +188,11 @@
         </div>
 
         <div class="col-sm-4  mb-md-0 mb-3 p-3">
-            <h5 class="text-uppercase footer-text-style">Links</h5>
+            <h5 class="text-uppercase duneColor footer-text-style">Links</h5>
 
             <ul class="list-unstyled">
                 <li>
-                  <a href="https://twitter.com/RaincoatDev" target="_blank"><i class="fab fa-twitter-square footer-text-style" "></i></a>
+                  <a href="https://twitter.com/RaincoatDev" target="_blank"><i class="fab fa-twitter-square duneColor footer-text-style" "></i></a>
                 </li>
             </ul>
         </div>
