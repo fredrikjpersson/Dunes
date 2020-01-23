@@ -8,8 +8,9 @@
 body{
     background-color:rgb(68, 53, 53) !important;
     font-family: 'badgrunge' !important;
-    max-width: 1700px !important;
     scroll-behavior: smooth;
+    background-size: cover;
+    background-image: url(Resources/loadingscreen01.png);
 }
 @font-face {
   font-family: badgrunge;
@@ -17,9 +18,9 @@ body{
   src: local("badgrunge"), url('badgrunge.ttf');
   }
 
-.navve {
+/* .navve {
   width: 110%;
-}
+} */
 .row {
   margin: 0 !important;
 }
@@ -34,18 +35,12 @@ body{
 
 .navbar{
   box-shadow: 0 0 8px 8px rgb(0, 0, 0) inset;
-  /* box-shadow: 3vh 1vh 17vh black; */
-    /* height: 20vh !important; */
-    max-width: 100%;
-    
+    max-width: 100%;   
     font-size: 4vh !important;
-    /* justify-content: center; */
-    /* align-content: center !important; */
     background-image: url(pic/bannerCar.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover !important;
-    /* background-size: auto !important; */
     background-color: black !important;
 }
 .dunesBrand {
@@ -53,7 +48,6 @@ body{
 }
 
 .logoBack {
-  /*animation-delay: 2s;*/
   background-image: url(dodLogo.png)!important ;
   
   background-repeat: no-repeat;
@@ -75,29 +69,24 @@ body{
     opacity: 0.3;
   }
 }
+.headFootShadow {
+  box-shadow: 0 0 8px 8px rgb(0, 0, 0) inset;
+}
+.boxShad {
+  box-shadow: 3vh 1vh 17vh black !important;
+}
+
 .roadBG{
     text-align: center;
     width: 100%;
-
-    /* max-width: 1700px; */
 }
 
 .combats {
   background-image: url(Resources/Combat.gif);
   background-size: cover;
-}
-.team1{
-  height: auto;
-}
-.testar {
-  margin-top: 200px;
   height: 40vh;
-  opacity: 0.4;
-  ;
 }
-.testar:hover{
-  opacity: 1;
-}
+
 .about{
   height: auto !important;
   background-image: url(Resources/mockup.jpg); 
@@ -106,34 +95,15 @@ body{
 .aboutText{
   overflow: hidden;
 }
-#news1 {
-  overflow:hidden;
-  transition:height 0.4s ease-out;
-  height: 6vh !important;
-  width: 80%;
-  margin: auto;
-  max-height:600px; 
-  /* font-family: 'badgrunge'; */
-  background-color: navajowhite !;
-}
-
-#news1:active {
-  height: auto !important;
-}
 
 .twitters {
-  height: 100vh !important;
+  height: 95vh !important;
   overflow:hidden;
-  width: 100%;
-  transition:height 0.3s ease-out;
+ 
   max-height:600px; 
   background-color: navajowhite !;
   overflow: scroll;
 }
-/* .twitters:hover {
-  height: 120vh;
-} */
-
 .bg-dunes{
     background-color: #524b48 ;
     
@@ -147,29 +117,6 @@ body{
   
 }
 /* DevArt */
-#arrow-wrapper {
-  width: 60px;
-  height: 60px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 30px;
-}
-.arrow-border {
-  position: relative;
-  width: 60px;
-  height: 60px;
-  border: 2px solid orange;
-  border-radius: 50%;
-}
-.arrow {
-  position: absolute;
-  bottom: 24px;
-  width: 20px;
-  height: 20px;
-  border-top: 3px solid orange;
-  border-right: 3px solid orange;
-  right: 19px;
-}
 
 .down {
   -moz-transform: rotate(135deg);
@@ -212,6 +159,15 @@ body{
     margin-top: 20vh;
 }
 
+/* General Styling */
+.duneColor {
+  color: rgb(133,24,28) !important;
+  
+}
+
+.rndc {
+  border-radius: 2em;
+}
 /* Twitter */
 
 /* News */
@@ -222,8 +178,8 @@ body{
 }
 
 .footer {
-  
-  background-image: url(Resources/loadingscreen01.png);
+  background-image: url(Resources/loadingscreen01.png); 
+  /* width: 100% !important; */
   background-position: center;
   background-size: cover;
   padding-top: 2vh;
@@ -239,8 +195,7 @@ body{
   font-size: 1.25em;
   color: #d37d43;
 
-}
-
+} 
 /* .fot{
   
 } */
