@@ -21,6 +21,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+  <script src="https://kit.fontawesome.com/034536f173.js" crossorigin="anonymous"></script>
 
 <script>
   var prevScrollpos = window.pageYOffset;
@@ -222,9 +223,6 @@
     </div>
 </div>
 </footer>
- ´´´
-  <footer class="page-footer footer pt-2 bg-dark car-background">
-
 
 </body>
 

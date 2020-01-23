@@ -9,8 +9,8 @@ body{
     background-color:rgb(68, 53, 53) !important;
     font-family: 'badgrunge' !important;
     scroll-behavior: smooth;
-    background-image: url(Resources/loadingscreen01.png);
     background-size: cover;
+    background-image: url(Resources/loadingscreen01.png);
 }
 @font-face {
   font-family: badgrunge;
@@ -170,6 +170,10 @@ body{
 /* News */
 
 /* Fotter */
+.car-background {
+  background-image: url(Resources/loadingscreen01.png);
+}
+
 .footer {
   background-image: url(Resources/loadingscreen01.png); 
   /* width: 100% !important; */
