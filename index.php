@@ -216,20 +216,58 @@
       </div>
   </div>
   <!--  -->
-<!-- Fotter  -->
-<div class="footer container" style="width: 100vh; height: 30vh; color: cornsilk;">
-  <div class="  ml-auto fot" style="height: 25vh; width: 30%; border-radius: 25px;">
-    <h4 style="color: crimson;">Just testing how this might look</h4>
-    <ul>
-      <li style="color: crimson;" ><a href="#teams" style="color: crimson;">Team</a></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </div>
+  <footer class="page-footer footer font-small blue pt-2 bg-dark">
 
+<!-- Footer Links -->
+<div class="container text-center">
+
+    <!-- Grid row -->
+    <div class="row">
+      <div class="col-md-4  mb-md-0 mb-3 d-none d-lg-block p-3">
+
+        <h5 class="text-uppercase text-light">Links</h5>
+
+        <ul class="list-unstyled ">
+            <li>
+              <a href="https://www.linkedin.com/in/agust-r%C3%B6nnb%C3%A4ck-869113196/" target="_blank"><i class="fab fa-linkedin text-white" style="font-size: 40px;"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/AgustRonnback" target="_blank"><i class="fab fa-github col-3 text-white" style="font-size: 40px;"></i></a>
+            </li>
+        </ul>
+      </div>
+        <div class="col-md-4 mt-md-0 p-3">
+            <h5 class="text-uppercase text-light">Content</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href class="text-white">About</a>
+              </li>
+              <li>
+                <a href class="text-white">Portfolio</a>
+              </li>
+              <li>
+                <a href="mailto:Agust.Ronnback@cmeducations.se?Subject=Hello%20again" class="text-white">Contact</a>
+              </li>
+              
+              </li>
+            </ul>
+        </div>   
+        
+        <div class="col-md-4 col-sm-12 mb-3 d-none d-lg-block p-3">
+            <h5 class="text-uppercase text-light">Links</h5>
+
+            <ul class="list-unstyled ">
+                <li>
+                  <a href="https://twitter.com/AgustRonnback" target="_blank"><i class="fab fa-twitter-square text-white" style="font-size: 40px;"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/agust.ronnback"><i class="fab fa-facebook-square text-white"style="font-size: 40px;"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
-
+</footer>
 </body>
 
 </html>
