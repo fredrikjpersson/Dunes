@@ -8,7 +8,7 @@
 body{
     background-color:rgb(68, 53, 53) !important;
     font-family: 'badgrunge' !important;
-    /* max-width: 1700px; */
+    max-width: 1700px !important;
     scroll-behavior: smooth;
 }
 @font-face {
@@ -217,8 +217,13 @@ body{
 /* News */
 
 /* Fotter */
+.car-background {
+  background-image: url(Resources/loadingscreen01.png);
+}
+
 .footer {
-  width: 100% !important;
+  
+  background-image: url(Resources/loadingscreen01.png);
   background-position: center;
   background-size: cover;
   padding-top: 2vh;

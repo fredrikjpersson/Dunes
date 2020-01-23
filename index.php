@@ -217,7 +217,7 @@
       </div>
   </div>
   <!--  -->
-  <footer class="page-footer footer pt-2 bg-dark">
+  <footer class="page-footer footer pt-2 bg-dark car-background">
 
 <!-- Footer Links -->
 <div class="container text-center">
@@ -230,7 +230,7 @@
 
         <ul class="list-unstyled ">
             <li>
-              <a href="https://www.linkedin.com/in/agust-r%C3%B6nnb%C3%A4ck-869113196/" target="_blank"><i class="fab fa-youtube-square footer-text-style" "></i></a>
+              <a href="https://www.youtube.com/channel/UCGyybXeVNfWgMVVv7I__9jg" target="_blank"><i class="fab fa-youtube-square footer-text-style" "></i></a>
             </li>
 
 
