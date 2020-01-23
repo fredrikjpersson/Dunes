@@ -230,11 +230,11 @@
 
         <ul class="list-unstyled ">
             <li>
-              <a href="https://www.linkedin.com/in/agust-r%C3%B6nnb%C3%A4ck-869113196/" target="_blank"><i class="fab fa-linkedin footer-text-style" style="font-size: 2.5em;"></i></a>
+              <a href="https://www.linkedin.com/in/agust-r%C3%B6nnb%C3%A4ck-869113196/" target="_blank"><i class="fab fa-youtube-square footer-text-style" "></i></a>
             </li>
-            <li>
-              <a href="https://github.com/AgustRonnback" target="_blank"><i class="fab fa-github  footer-text-style"  style="font-size: 2.5em;"></i></a>
-            </li>
+
+
+
         </ul>
       </div>
         <div class="col-sm-4">
@@ -259,10 +259,7 @@
 
             <ul class="list-unstyled">
                 <li>
-                  <a href="https://twitter.com/AgustRonnback" target="_blank"><i class="fab fa-twitter-square footer-text-style" style="font-size: 2.5em;"></i></a>
-                </li>
-                <li>
-                  <a href="https://www.facebook.com/agust.ronnback"><i class="fab fa-facebook-square footer-text-style"style="font-size: 2.5em;"></i></a>
+                  <a href="https://twitter.com/RaincoatDev" target="_blank"><i class="fab fa-twitter-square footer-text-style" "></i></a>
                 </li>
             </ul>
         </div>
