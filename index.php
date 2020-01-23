@@ -115,15 +115,19 @@
       <!-- right lane-->
        <div class="col-lg-6 col-md-12 col-sm-12 columnItem">
         <div id="#" class="container boxShad bg-dark my-5" style="width: 87%; border: 15px blured black; border-radius: 15px;">
-         <div style="color: white;"><?php require 'raincoat.html' ?></div>
+         <div style="color: white;"><?php require 'dodLogo.html' ?></div>
          <div class="container boxShad rndc bg-dark m-auto" style="width: 100%; border: 15px  black; border-radius: 15px;"><?php require 'about.html' ?></div>
           </div>
           <div class="container boxShad bg-dark my-2" style="width: 87%; border-radius: 15px;">
           <div class="container boxShad" style="width: 100%; border-radius: 25px !important;">
             <?php require 'twitterFeed.html' ?>
           </div>
+          
           <div class="container rndc boxShad my-5" style=" height: 40vh; background-image: url(Resources/Screen01.jpg); background-repeat: round;">
             
+          </div>
+          <div id="#" class="container boxShad rndc bg-dark my-5" style="width: 87%; border: 15px  black; border-radius: 1em;">
+         <div style="color: white;"><?php require 'journey.html' ?></div>
           </div>
           <div class="container rndc boxShan my-5" style="width: 100%; border: 15px blured black;">
           <div id="" class="combats boxShad columnItem" style="border: black sollid 3px; height: 30vh; border-radius: 10px !important;"></div>
