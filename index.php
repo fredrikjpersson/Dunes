@@ -21,6 +21,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+  <script src="https://kit.fontawesome.com/034536f173.js" crossorigin="anonymous"></script>
 
 <script>
   var prevScrollpos = window.pageYOffset;
@@ -216,19 +217,58 @@
       </div>
   </div>
   <!--  -->
-<!-- Fotter  -->
-<div class="footer container" style="width: 100vh; height: 30vh; color: cornsilk;">
-  <div class="  ml-auto fot" style="height: 25vh; width: 30%; border-radius: 25px;">
-    <h4 style="color: crimson;">Just testing how this might look</h4>
-    <ul>
-      <li style="color: crimson;" ><a href="#teams" style="color: crimson;">Team</a></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </div>
+  <footer class="page-footer footer pt-2 bg-dark">
 
+<!-- Footer Links -->
+<div class="container text-center">
+
+    <!-- Grid row -->
+    <div class="row">
+      <div class="col-sm-4  mb-md-0 mb-3 p-3">
+
+        <h5 class="text-uppercase footer-text-style">Links</h5>
+
+        <ul class="list-unstyled ">
+            <li>
+              <a href="https://www.linkedin.com/in/agust-r%C3%B6nnb%C3%A4ck-869113196/" target="_blank"><i class="fab fa-linkedin footer-text-style" style="font-size: 2.5em;"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/AgustRonnback" target="_blank"><i class="fab fa-github  footer-text-style"  style="font-size: 2.5em;"></i></a>
+            </li>
+        </ul>
+      </div>
+        <div class="col-sm-4">
+            <h5 class="text-uppercase footer-text-style">Content</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href class="footer-text-style-2">About</a>
+              </li>
+              <li>
+                <a href class="footer-text-style-2">Portfolio</a>
+              </li>
+              <li>
+                <a href="mailto:mrlindfors@gmail.com?" class="footer-text-style-2">Contact</a>
+              </li>
+              
+              </li>
+            </ul>
+        </div>   
+        
+        <div class="col-sm-4  mb-md-0 mb-3 p-3">
+            <h5 class="text-uppercase footer-text-style">Links</h5>
+
+            <ul class="list-unstyled">
+                <li>
+                  <a href="https://twitter.com/AgustRonnback" target="_blank"><i class="fab fa-twitter-square footer-text-style" style="font-size: 2.5em;"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/agust.ronnback"><i class="fab fa-facebook-square footer-text-style"style="font-size: 2.5em;"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
+</footer>
 
 </body>
 

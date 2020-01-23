@@ -219,12 +219,23 @@ body{
 /* Fotter */
 .footer {
   width: 100% !important;
-  background-image: url(Resources/Car\ Variations.png) !important;
   background-position: center;
   background-size: cover;
   padding-top: 2vh;
   padding-right: 3vh;
 }
+
+.footer-text-style {
+  font-size: 2.5em;
+  color: #d37d43;
+
+}
+.footer-text-style-2 {
+  font-size: 1.25em;
+  color: #d37d43;
+
+}
+
 /* .fot{
   
 } */
