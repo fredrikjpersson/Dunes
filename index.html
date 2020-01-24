@@ -81,11 +81,13 @@
               <a class="dropdown-item download"href="DunesPictures.rar">Presskit Download</a>
             </div>
           </li>
+
         </ul>
-        <a class="navbar-brand dunesBrand" href="#">Dunes Of Demise!!</a>
+        <!-- <a class="navbar-brand  ml-auto dunesBrand" href="#" style="height: auto;" >Dunes Of Demise!!</a> -->
+        <a class="navbar-brand dunesBrand" href="#" style="width: auto">Dunes Of Demise!!</a>
       </div>
     </nav>
-    
+  
   <!--navbar end-  -->
     <div class="row" style="background-image: url(pic/single-road.png); background-repeat: round;">
     
@@ -100,17 +102,76 @@
           </div>
           <div class="container boxShad bg-dark boxShad p-2 my-5" style="width: 87%; border: 15px  black; border-radius: 15px;">
           <div id="news1" class="container boxShad bg-dark my-5 "  style="width: 100%; border: 15px black; border-radius: 15px;">
-            <?php require 'new1.html' ?>
+            <div class="newsBody bg-dark pb-4  rounded"  style="color: chocolate"><h2>News 1</h2><br/><h4 style="font-family: Arial, Helvetica, sans-serif;">
+              Often you want an image to fill the whole width of the containing element.
+               .img-fluid can be used to fill the containing element and scale down, but 
+               there's no option for scaling up. 
+               
+                 </h4></div> 
           </div>
           <div id="trailer" class=" bg-transparent" style="height: 3vh;"></div>
           <div id="news1" class="container boxShad bg-dark my-5" style="width: 100%; border: 15px blured black; border-radius: 15px;">
-            <?php require 'new2.html' ?>
+            <div class="newsBody bg-dark pb-4  rounded" style="color: chocolate"><h2>News 2</h2><br/><h4 style="font-family: 'Times New Roman', Times, serif, sans-serif;">
+
+              's images to scale up and down by using .img-fill or if he only wants them
+               to scale down by using 
+              .img-fluid.Often you want an image to fill the whole width of the containing element.
+               .img-fluid can be used to fill the containing element and scale down, but 
+               there's no option for scaling up. 
+                 </h4></div> 
           </div>
           <div id="trailer" class=" bg-transparent" style="height: 3vh;"></div>
           <div id="news1" class="container boxShad bg-dark my-5" style="width: 100%; border: 15px blured black; border-radius: 15px;">
-            <?php require 'new3.html' ?>
+            <div class="newsBody bg-dark  pb-4 rounded" style="color:chocolate;"><h2>News 3</h2><br/><h4 style="font-family: 'Times New Roman', Times, serif, sans-serif;">
+
+    
+              If the containing element is bigger than
+               the actual image size, even if it's only some pixels in some special view
+               ports, the image won't fill the whole element. This is bad for the design
+               , in most cases worse than upscaling an image for some pixels.
+             
+             For this case, we created a class .img-fill which sets display: block; wid
+              ontaining element and scale down, but 
+              there's no option for scaling up. 
+                </h4></div> 
           </div>
           </div>
+          <div id="trailer" class=" bg-transparent" style="height: 3vh;"></div>
+          <div id="news1" class="container boxShad bg-dark my-5" style="width: 87%; border: 15px blured black; border-radius: 15px;">
+            <div>
+              <div id="slides" class="carousel  boxShad backFader  shadow-lg" data-interval="5000" data-ride="carousel" style="width: auto;">
+                <ul class="carousel-indicators fixed">
+                    <li data-target="#slides" data-slide-to="0" class="active"></li>
+                    <li data-target="#slides" data-slide-to="1"></li>
+                    <li data-target="#slides" data-slide-to="2"></li>
+                    <li data-target="#slides" data-slide-to="3"></li>
+                    <li data-target="#slides" data-slide-to="4"></li>
+                    <li data-target="#slides" data-slide-to="5"></li>
+                </ul>
+                <div class="carousel-inner boxShad columnItem" style=" border-radius: 25px;">
+                    <div class="carousel-item boxShad active">
+                      <img class="card-img-top mb-4 d-block img-fluid" src="mugshots/henrikmug.png" alt="Second slide" class = 'img-responsive'>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="card-img-top mb-4 d-block img-fluid" src="mugshots/matiasmug.png" alt="Second slide" class = 'img-responsive'>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="card-img-top mb-4 d-block img-fluid" src="mugshots/tobiasmug.png" alt="Second slide" class = 'img-responsive'>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="card-img-top mb-4 d-block img-fluid" src="mugshots/niklasmug.png" alt="Second slide" class = 'img-responsive'>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="card-img-top mb-4 d-block img-fluid" src="mugshots/arvidmug.png" alt="Second slide" class = 'img-responsive'>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="card-img-top mb-4 d-block img-fluid" src="mugshots/oscarmug.png" alt="Second slide" class = 'img-responsive'>
+                    </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+          
       </div>
 
       
@@ -119,19 +180,70 @@
       <!-- right lane-->
        <div class="col-lg-6 col-md-12 col-sm-12 columnItem">
         <div id="#" class="container boxShad bg-dark my-5" style="width: 87%; border: 15px blured black; border-radius: 15px;">
-         <div style="color: white;"><?php require 'dodLogo.html' ?></div>
-         <div class="container boxShad rndc bg-dark m-auto" style="width: 100%; border: 15px  black; border-radius: 15px;"><?php require 'about.html' ?></div>
+         <div style="color: white;">
+          <div class="newsBody bg-dark rounded" style="background-image: url('dodLogo.png');height: 40vh; background-size: cover; color: chocolate;"><h2></h2><br/><h4>
+  
+          </h4></div>
+        </div>
+         <div class="container boxShad rndc bg-dark m-auto" style="width: 100%; border: 15px  black; border-radius: 15px;">
+          <div class="newsBody bg-dark rounded" style="color: chocolate;"><h2></h2><br/><h4>
+            <div class="bg-dark" style="height: auto; font-family: 'Times New Roman', Times, serif, sans-serif;">  A single player post apocalyptic road trip adventure with party and resource management.
+              Dunes of Demise will force the player to make difficult moral choices throughout the game.
+              The game features a turn based vehicular combat system where the player is in control of each car & passenger in their caravan.
+              Dunes of Demise will be short in game time, but high in replayability.</div>
+        </h4></div> 
+        </div>
           </div>
           <div class="container boxShad bg-dark my-2" style="width: 87%; border-radius: 15px;">
           <div class="container boxShad" style="width: 100%; border-radius: 25px !important;">
-            <?php require 'twitterFeed.html' ?>
+            <div class="newsBody bg-dark my-2 rounded" style="color: chocolate">
+              <h2>Twitter Feed</h2><br />
+              <h4 style="font-family: Arial, Helvetica, sans-serif;">
+                  <div id="" class="twitters columnItem " style="border: black sollid 3px; border-radius: 10px !important;">
+                      <a class="twitter-timeline" data-theme="dark"
+                          href="https://twitter.com/RaincoatDev?ref_src=twsrc%5Etfw">Tweets by RaincoatDev</a>
+                      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  </div>
+              </h4>
+          </div>
           </div>
           
           <div class="container rndc boxShad my-5" style=" height: 40vh; background-image: url(Resources/Screen01.jpg); background-repeat: round;">
             
           </div>
           <div id="#" class="container boxShad rndc bg-dark my-5" style="width: 100%; border: 15px  black; border-radius: 1em;">
-         <div style="color: white;"><?php require 'journey.html' ?></div>
+         <div style="color: white;">
+          <div class="newsBody bg-dark rounded" style="color: chocolate"><h2>The Journey</h2><br/><h4 style="font-family: 'Times New Roman', Times, serif, sans-serif;">
+            Dunes of Demise started out as a 9 week project during 2018.
+             The game could be described as a post apocalyptic travel adventrue with resource management and turned based combat.
+             The player would start with a single car and two characters, the game would later have the player recruit more cars and characters while forming a caravan.
+             ￼
+             The original team [Team HAMM] consisted of:
+             Henrik Lindfors
+             Arvid Stenersjö
+             Mattias Celius
+             ￼Marcus Josefsson
+             
+             The original game was made in a low poly art style and active turn based combat.
+             The combat would recieve some critisism from the juror at the end of the project assesment period.
+             A year later (February 2019), Henrik and Arvid decided to take the concept and pitch it in front of a jury in Skellefteå.
+             The pitch made it to the next round and a new team was formed around the project:
+             ￼
+             Henrik Lindfors
+             Arvid Stenersjö
+             Mattias Celius
+             Tobias Lundin
+             Oscar Svahn
+             Niklas Marklund
+             
+             
+             The team had taking the critisism to heart by now and decided to revamp portions of the game, such as the combat system.
+             Instead of the typical JRPG Active Turn Based system previously used in the prototype the team used a grid based turnbased combat system where the player could shoot using any character in the vehicle and ram cars into incoming debris on the road.
+             ￼
+             During Nordsken 2019 the game won a spot at GamesCom 2019.
+             The team is currently looking for ways to fund the continued development of the title.
+         </h4></div> 
+        </div>
           </div>
           <div class="container rndc boxShan my-5" style="width: 100%; border: 15px blured black;">
           <div id="" class="combats boxShad columnItem" style="border: black sollid 3px; height: 30vh; border-radius: 10px !important;"></div>
