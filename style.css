@@ -161,7 +161,7 @@ body{
 
 /* General Styling */
 .duneColor {
-  color: rgb(133,24,28) !important;
+  color: rgb(216, 216, 216) !important;
   
 }
 
@@ -180,19 +180,19 @@ body{
 .footer {
   background-image: url(Resources/loadingscreen01.png); 
   /* width: 100% !important; */
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   padding-top: 2vh;
   padding-right: 3vh;
 }
 
 .footer-text-style {
-  font-size: 2.5em;
+  font-size: 3em;
   color: #d37d43;
 
 }
 .footer-text-style-2 {
-  font-size: 1.25em;
+  font-size:2em;
   color: #d37d43;
 
 } 
