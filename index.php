@@ -96,20 +96,24 @@
         </div>
       
         <div id="#" class="container boxShad rndc bg-dark my-5" style="width: 87%; border: 15px  black; border-radius: 1em;">
-         <div style="color: white;"><?php require 'journey.html' ?></div>
+         <div style="color: white;"></div>
           </div>
           <div class="container boxShad bg-dark boxShad p-2 my-5" style="width: 87%; border: 15px  black; border-radius: 15px;">
-          <div id="news1" class="container boxShad bg-dark my-5 "  style="width: 87%; border: 15px black; border-radius: 15px;">
+          <div id="news1" class="container boxShad bg-dark my-5 "  style="width: 100%; border: 15px black; border-radius: 15px;">
             <?php require 'new1.html' ?>
           </div>
-          <div id="news1" class="container boxShad bg-dark my-5" style="width: 87%; border: 15px blured black; border-radius: 15px;">
+          <div id="trailer" class=" bg-transparent" style="height: 3vh;"></div>
+          <div id="news1" class="container boxShad bg-dark my-5" style="width: 100%; border: 15px blured black; border-radius: 15px;">
             <?php require 'new2.html' ?>
           </div>
-          <div id="news1" class="container boxShad bg-dark my-5" style="width: 87%; border: 15px blured black; border-radius: 15px;">
+          <div id="trailer" class=" bg-transparent" style="height: 3vh;"></div>
+          <div id="news1" class="container boxShad bg-dark my-5" style="width: 100%; border: 15px blured black; border-radius: 15px;">
             <?php require 'new3.html' ?>
           </div>
           </div>
       </div>
+
+      
       <!--MidLane-->
      
       <!-- right lane-->
@@ -126,7 +130,7 @@
           <div class="container rndc boxShad my-5" style=" height: 40vh; background-image: url(Resources/Screen01.jpg); background-repeat: round;">
             
           </div>
-          <div id="#" class="container boxShad rndc bg-dark my-5" style="width: 87%; border: 15px  black; border-radius: 1em;">
+          <div id="#" class="container boxShad rndc bg-dark my-5" style="width: 100%; border: 15px  black; border-radius: 1em;">
          <div style="color: white;"><?php require 'journey.html' ?></div>
           </div>
           <div class="container rndc boxShan my-5" style="width: 100%; border: 15px blured black;">
