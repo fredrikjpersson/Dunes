@@ -10,7 +10,7 @@ body{
     font-family: 'badgrunge' !important;
     scroll-behavior: smooth;
     background-size: cover;
-    background-image: url(Resources/loadingscreen01.png);
+    background-image: url(Resources/loadingscreen01.jpg);
 }
 @font-face {
   font-family: badgrunge;
@@ -24,7 +24,11 @@ body{
 .row {
   margin: 0 !important;
 }
-.imagePush{
+.textFont {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+#myTeam1{
   margin-top: 20vh;
 }
 
@@ -38,14 +42,15 @@ body{
   box-shadow: 0 0 8px 8px rgb(0, 0, 0) inset;
     max-width: 100%;   
     font-size: 4vh !important;
-    background-image: url(pic/bannerCar.png);
+    background-image: url(pic/bannerCar.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover !important;
     background-color: black !important;
 }
 .dunesBrand {
-  font-size: 10vh !important;
+  text-align: center !important;
+  font-size: 6vh !important;
 }
 
 .logoBack {
@@ -73,9 +78,7 @@ body{
 .headFootShadow {
   box-shadow: 0 0 8px 8px rgb(0, 0, 0) inset;
 }
-.boxShad {
-  box-shadow: 3vh 1vh 17vh black !important;
-}
+
 
 .roadBG{
     text-align: center;
@@ -100,24 +103,20 @@ body{
 .twitters {
   height: 95vh !important;
   overflow:hidden;
- 
   max-height:600px; 
   background-color: navajowhite !;
   overflow: scroll;
   
 }
-.bg-dunes{
+/* .bg-dunes{
     background-color: #524b48 ;
     
 }
 .bg-dunes1{
   background-color: #d37d43 !important;
-  
-}
-.bg-dunes2{
-  background-color: #8d8d8c !important;
-  
-}
+   */
+
+
 /* DevArt */
 
 .down {
@@ -156,15 +155,17 @@ body{
 }
 /* About */
 
-/* Team */
-#myTeam1{
-    margin-top: 20vh;
-}
+
 
 /* General Styling */
 .duneColor {
   color: rgb(216, 216, 216) !important;
-  
+}
+.bg-dunes2{
+  background-color: #8d8d8c !important;
+}
+.boxShad {
+  box-shadow: 3vh 1vh 17vh black !important;
 }
 
 .rndc {
@@ -176,11 +177,11 @@ body{
 
 /* Fotter */
 .car-background {
-  background-image: url(Resources/loadingscreen01.png);
+  background-image: url(Resources/loadingscreen01.jpg);
 }
 
 .footer {
-  background-image: url(Resources/loadingscreen01.png); 
+  background-image: url(Resources/loadingscreen01.jpg); 
   /* width: 100% !important; */
   background-position: bottom;
   background-size: cover;
