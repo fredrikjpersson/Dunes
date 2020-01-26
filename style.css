@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+h4 {
+  font-size: 0.9em !important;
+}
+
 body{
     background-color:rgb(68, 53, 53) !important;
     font-family: 'badgrunge' !important;
@@ -18,9 +22,6 @@ body{
   src: local("badgrunge"), url('badgrunge.ttf');
   }
 
-/* .navve {
-  width: 110%;
-} */
 .row {
   margin: 0 !important;
 }
@@ -31,12 +32,6 @@ body{
 #myTeam1{
   margin-top: 20vh;
 }
-
-
-/* .columnItem {
-  padding: 15px;
-  margin-top: 15px;
-} */
 
 .navbar{
   box-shadow: 0 0 8px 8px rgb(0, 0, 0) inset;
@@ -108,16 +103,6 @@ body{
   overflow: scroll;
   
 }
-/* .bg-dunes{
-    background-color: #524b48 ;
-    
-}
-.bg-dunes1{
-  background-color: #d37d43 !important;
-   */
-
-
-/* DevArt */
 
 .down {
   -moz-transform: rotate(135deg);
@@ -153,11 +138,6 @@ body{
     opacity: 0;
   }
 }
-/* About */
-
-
-
-/* General Styling */
 .duneColor {
   color: rgb(216, 216, 216) !important;
 }
@@ -171,18 +151,12 @@ body{
 .rndc {
   border-radius: 2em;
 }
-/* Twitter */
-
-/* News */
-
-/* Fotter */
 .car-background {
   background-image: url(Resources/loadingscreen01.jpg);
 }
 
 .footer {
   background-image: url(Resources/loadingscreen01.jpg); 
-  /* width: 100% !important; */
   background-position: bottom;
   background-size: cover;
   padding-top: 2vh;
@@ -198,9 +172,6 @@ body{
   font-size:2em;
   color: #d37d43;
 }
-  .wrap-width {
-    width: 100%;
-    }
 
 
     @media (min-width: 768px){
@@ -210,7 +181,5 @@ body{
     }
     
     @media (min-width: 992px){
-      .container{
-        max-width:100%;
-      }
+   
     }
