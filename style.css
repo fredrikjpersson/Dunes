@@ -33,6 +33,17 @@ body{
   margin-top: 20vh;
 }
 
+h2 span { 
+  margin-top: -300px;        
+  padding-bottom: 300px; 
+  display: block; 
+}
+
+h3 span { 
+  margin-top: -200px;        
+  padding-bottom: 200px; 
+  display: block; 
+}
 .navbar{
   box-shadow: 0 0 8px 8px rgb(0, 0, 0) inset;
     max-width: 100%;   
@@ -165,12 +176,12 @@ body{
 
 .footer-text-style {
   font-size: 3em;
-  color: #d37d43;
+  
 
 }
 .footer-text-style-2 {
   font-size:2em;
-  color: #d37d43;
+  
 }
 
 
